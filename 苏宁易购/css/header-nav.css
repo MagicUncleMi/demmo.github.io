@@ -1,0 +1,111 @@
+ul li{
+    list-style-type: none;
+}
+
+.top-nav{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 0 2px #ddd;
+    background: #f9f9f9;
+
+}
+.top-nav a{
+    text-decoration: none;
+}
+.top-nav .inner{
+    width:1170px;
+    margin:0 auto;
+    /*border: 1px solid red;*/
+}
+.clear_fix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.top-nav .left{
+    float: left;
+}
+.top-nav .right{
+    float: right;
+}
+.top-nav ul li{
+    float: left;
+}
+.top-nav a {
+    font-size: 12px;
+    line-height: 30px;
+}
+.top-nav li{
+    height: 30px;
+}
+.top-nav a {
+    font-size: 12px;
+    line-height: 30px;
+}
+.top-nav li{
+    height: 30px;
+}
+.top-nav .left li{
+    padding-right: 8px;
+}
+/*收藏*/
+
+.icon-collect{
+    font-size: 18px;
+}
+#collect:hover .icon-collect{
+    color: #f76120;
+}
+/*悬浮到收藏按钮上时按钮变实心*/
+#collect:hover .icon-collect:before{
+    content: "\e91a";
+}
+/*登陆*/
+#login{
+    color: #f76120;
+    padding: 0 5px 0 10px;
+}
+
+#login:hover{
+    text-decoration: underline ;
+}
+
+/*注册*/
+#registe{
+    border-right:1px solid #ddd ;
+    padding:0 10px 0 5px ;
+}
+#registe:hover{
+    text-decoration: underline;
+}
+
+.top-nav .right a{
+    border-right: 1px solid #ddd;
+    padding: 0 20px 0 12px;
+    position: relative;
+}
+.top-nav .right li:first-child a,.top-nav .right li:last-child a{
+    border: none;
+}
+.top-nav .right li:first-child a{
+    padding-right: 8px;
+}
+.top-nav .right a:hover{
+    color: #f76120;
+}
+.down-arrow{
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border: 3px solid transparent;
+    border-top-color: #999;
+    position:absolute ;
+    top:7px;
+    right:8px ;
+}
+.top-nav .right a:hover .down-arrow{
+    border-top-color: cornflowerblue;
+    transform:rotateX(180deg);
+    transform-origin: center 25%;
+}
+
