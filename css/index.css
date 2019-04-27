@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    width:100%;
+    height: auto;
     font-family:Tahoma,Arial,Roboto,”Droid Sans”,”Helvetica Neue”,”Droid Sans Fallback”,”Heiti SC”,sans-self;
     overflow: hidden;
 }
